@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: Get billing info useing serverless chrome.
+Description: Get billing info using serverless chrome.
 Resources:
   getbillinginfofunction:
     Type: AWS::Lambda::Function
