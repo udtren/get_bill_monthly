@@ -1,7 +1,7 @@
-# Running headless chrome with selenium on AWS Lambda
+# Running headless chrome with selenium on AWS Lambda using python
 
 三井住友銀行のWEBサイトから前月の明細CSVをダウンロードし、S3にアップロードする。  
-AWS Lambda、headless chromeを使用。
+AWS Lambda、Parameter store。CloudWatch Events、headless chrome、Pythonを使用。
 
 reference link：  
 https://github.com/yai333/Selenium-UI-testing-with-AWS-Lambda-Layers
