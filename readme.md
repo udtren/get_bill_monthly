@@ -5,11 +5,11 @@ AWS Lambdam、headless chromeを使用。
 
 reference link：
 https://github.com/yai333/Selenium-UI-testing-with-AWS-Lambda-Layers
-
+```buildoutcfg
 # download selenium
 pip3 install -t seleniumLayer/selenium/python/lib/python3.7/site-packages selenium=2.37
 
-```buildoutcfg
+
 # download chromedriver
 cd seleniumLayer
 mkdir chromedriver
