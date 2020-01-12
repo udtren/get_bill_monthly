@@ -17,7 +17,6 @@ login_pw = ssm_client.get_parameter(Name='smbc_card_login_pw')
 billing_bucket = ssm_client.get_parameter(Name='billing_bucket')
 account_id = ssm_client.get_parameter(Name='account_id')
 
-
 def get_smbc_card_bill():
 
     try:
