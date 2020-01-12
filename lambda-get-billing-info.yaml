@@ -14,7 +14,7 @@ Resources:
           smbc_branch_no: '{{resolve:ssm:smbc_branch_no:1}}'
           smbc_password: '{{resolve:ssm:smbc_password:1}}'
       FunctionName: "GetBillingInfo"
-      Handler: "main.handler"
+      Handler: "get_smbc_bill.handler"
       Layers:
         - !Ref getbillinginfolayerchromedriver
         - !Ref getbillinginfolayerselenium
